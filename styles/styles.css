@@ -1,0 +1,27 @@
+:root {
+    --color-dark: #000000;
+    --color-dark-alternative: #151515;
+    --color-light: #ffffff;
+    --color-light-alternative: #f0f0f0;
+
+    --border: 1px solid var(--color-dark-alternative);
+    --border-alternative: 1px solid var(--color-light);
+
+    --height: 52px;
+    --height-small: 38px;
+
+    --font-family: 'Neue-Machina', san-serif;
+
+    --container-width: 1512px;
+    --container-padding-x: 16px;
+    --container-padding-y: 100px;
+}
+
+body {
+    font-size: 18px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--color-dark-alternative);
+    background-color: var(--color-light-alternative);
+}
