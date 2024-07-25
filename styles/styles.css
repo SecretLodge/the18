@@ -145,7 +145,7 @@ h6 {
 
 .header__menu-mobile-list {
     display: flex;
-    row-gap: 50px;
+    row-gap: 30px;
     flex-direction: column;
     letter-spacing: 2px;
     position: relative;
@@ -153,9 +153,14 @@ h6 {
 
 .header__menu-mobile-link {
     color: var(--color-light);
-    font-size: 45px;
+    font-size: 35px;
     display: block;
     text-wrap: nowrap;
+    text-wrap-mode: nowrap;
+}
+
+.header__menu-mobile-link:hover {
+    color: #ee4d4d;
 }
 
 .header__menu-mobile-line {
