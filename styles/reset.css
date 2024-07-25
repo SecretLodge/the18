@@ -58,6 +58,7 @@ button {
 
 button {
     user-select: none;
+    padding: 0;
 }
 
 html {
