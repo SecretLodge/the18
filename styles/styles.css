@@ -156,8 +156,7 @@ h6 {
     font-size: 35px;
     display: block;
     text-wrap: nowrap;
-    word-wrap: normal;
-    text-wrap-mode: nowrap;
+    white-space: nowrap;
 }
 
 .header__menu-mobile-link:hover {
