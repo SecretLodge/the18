@@ -46,7 +46,7 @@
                         loading="lazy"
                     />
                 </a>
-                <nav class="header__menu">
+                <nav class="header__menu" aria-label="Menu of navigation">
                     <ul class="header__menu-list">
                         <li class="header__menu-item">
                             <a href="/" class="header__menu-link">About Us</a>
@@ -64,7 +64,10 @@
                         </li>
                     </ul>
                 </nav>
-                <nav class="header__menu-mobile">
+                <nav
+                    class="header__menu-mobile"
+                    aria-label="Mobile menu of navigation"
+                >
                     <button
                         type="button"
                         title="Close menu"
@@ -125,7 +128,80 @@
                 </button>
             </div>
         </header>
-        <body></body>
+        <body>
+            <h1 class="visually__hidden">
+                The18 - service for collecting statistics.
+            </h1>
+            <section class="welcome section">
+                <div class="welcome__inner container">
+                    <div class="welcome__body">
+                        <h2 class="welcome__title title__big-extra title">
+                            Always Track & Analyze Your Business Statistics To
+                            Succeed.
+                        </h2>
+                        <p class="welcome__description description">
+                            A better way to manage your sales, team, clients &
+                            marketing <br />— on a single platform. Powerful,
+                            affordable & easy.
+                        </p>
+                        <form action="/" class="welcome__form">
+                            <label
+                                for="email-registration"
+                                class="visually__hidden"
+                            >
+                                Enter your email for registration
+                            </label>
+                            <input
+                                type="email"
+                                id="email-registration"
+                                class="welcome__input input"
+                                placeholder="Enter your email"
+                            />
+                            <button
+                                title="Sing Up"
+                                class="welcome__registration-button button"
+                                type="submit"
+                            >
+                                Get started
+                            </button>
+                        </form>
+                        <div class="welcome__partners">
+                            <h3 class="visually__hidden">Our partners</h3>
+                            <img
+                                src="./images/icons/partners/1.png"
+                                alt="VISA"
+                                width="80"
+                                height="27"
+                                title="VISA"
+                            />
+                            <img
+                                src="./images/icons/partners/2.png"
+                                alt="Mastercard"
+                                width="56"
+                                height="34"
+                                title="Mastercard"
+                            />
+                            <img
+                                src="./images/icons/partners/3.png"
+                                alt="PayPal"
+                                width="112"
+                                height="28"
+                                title="PayPal"
+                            />
+                        </div>
+                    </div>
+                    <div class="welcome__image-wrapper right">
+                        <img
+                            src="./images/pictures/1.png"
+                            alt=""
+                            class="welcome__image"
+                            width="543"
+                            height="577"
+                        />
+                    </div>
+                </div>
+            </section>
+        </body>
         <footer></footer>
     </body>
 </html>
