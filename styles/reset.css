@@ -54,6 +54,7 @@ textarea,
 select,
 button {
     font: inherit;
+    border-radius: 0;
 }
 
 button {
