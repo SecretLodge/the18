@@ -497,7 +497,8 @@ input:-webkit-autofill {
     padding: 4px;
     top: 6px;
     right: 0;
-    background: url('/images/icons/general/plus.svg') center / contain no-repeat;
+    background: url('../images/icons/general/plus.svg') center / contain
+        no-repeat;
     width: 16px;
     aspect-ratio: 1;
 }
@@ -507,7 +508,7 @@ input:-webkit-autofill {
     position: absolute;
     top: 6px;
     right: 0;
-    background: url('/images/icons/general/minus.svg') center / contain
+    background: url('../images/icons/general/minus.svg') center / contain
         no-repeat;
     width: 16px;
 }

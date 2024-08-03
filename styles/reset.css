@@ -60,6 +60,7 @@ button {
 button {
     user-select: none;
     background-color: none;
+    background: none;
     color: currentColor;
     padding: 0;
 }
