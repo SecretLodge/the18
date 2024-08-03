@@ -59,6 +59,8 @@ button {
 
 button {
     user-select: none;
+    background-color: none;
+    color: currentColor;
     padding: 0;
 }
 
