@@ -32,6 +32,7 @@
         />
         <link rel="manifest" href="manifest.webmanifest" />
         <script src="./scripts/menu_mobile.js" defer></script>
+        <script src="./scripts/accordeon.js" defer></script>
     </head>
     <body>
         <header class="header">
@@ -225,23 +226,23 @@
                                 browser, test prototypes and leave feedback for
                                 free.
                             </p>
-                            <ul class="about-us__list section__list">
-                                <li class="about-us__item section__list-item">
+                            <ul class="about-us__list article__list">
+                                <li class="article__item">
                                     Shared Cloud Libraries, for a single source
                                     of truth
                                 </li>
-                                <li class="about-us__item section__list-item">
+                                <li class="article__item">
                                     Prototype previews for user testing and
                                     research
                                 </li>
-                                <li class="about-us__item section__list-item">
+                                <li class="article__item">
                                     Easy organization with projects
                                 </li>
-                                <li class="about-us__item section__list-item">
+                                <li class="article__item">
                                     Free developer handoff, right inside the
                                     browser
                                 </li>
-                                <li class="about-us__item section__list-item">
+                                <li class="article__item">
                                     Two-factor authentication and SSO
                                 </li>
                             </ul>
@@ -422,7 +423,7 @@
                                             Shared Cloud Libraries
                                         </h4>
                                         <p
-                                            class="how-it-works__description description__little description__little"
+                                            class="how-it-works__description description__little"
                                         >
                                             Navigate to the Your work panel in
                                             the left sidebar. Select the library
@@ -442,6 +443,233 @@
                             class="how-it-works__image"
                             width="490"
                             height="700"
+                        />
+                    </div>
+                </div>
+            </section>
+            <section class="pricing section">
+                <div class="pricing__inner container">
+                    <header class="pricing__header">
+                        <div class="pricing__image-wrapper image__wrapper left">
+                            <img
+                                src="./images/pictures/4.png"
+                                alt=""
+                                class="pricing__image"
+                                width="470"
+                                height="500"
+                            />
+                        </div>
+                        <div class="pricing__body section__body">
+                            <h2 class="pricing__category category">Pricing</h2>
+                            <article class="pricing__article">
+                                <h3 class="pricing__title title__big">
+                                    Select a membership level the right price
+                                    for you.
+                                </h3>
+                                <p class="pricing__title description__little">
+                                    Prices listed in USD. Taxes may apply. By
+                                    using program you agree to our terms and
+                                    policies.
+                                </p>
+                            </article>
+                        </div>
+                    </header>
+                    <div class="pricing__content">
+                        <article class="pricing__card-price transparent">
+                            <h4 class="pricing__body-title title__mega">
+                                <sup>$</sup>49<sub>per mo<span>nth</span></sub>
+                            </h4>
+                            <p class="pricing__description">
+                                A pay-once license, just for you
+                            </p>
+                            <ul class="pricing__list article__list">
+                                <li class="pricing__item article__item">
+                                    The Mac app — yours to keep
+                                </li>
+                                <li class="pricing__item article__item">
+                                    Beautiful White_level
+                                </li>
+                                <li class="pricing__item article__item">
+                                    One year of saving to Cloud
+                                </li>
+                            </ul>
+                            <button class="button black center" type="button">
+                                Join
+                            </button>
+                        </article>
+                        <article class="pricing__card-price">
+                            <h4 class="pricing__body-title title__mega">
+                                <sup>$</sup>99<sub>per mo<span>nth</span></sub>
+                            </h4>
+                            <p class="pricing__description">
+                                A pay-once license, just for you
+                            </p>
+                            <ul class="pricing__list article__list">
+                                <li class="pricing__item article__item">
+                                    The Mac app — yours to keep
+                                </li>
+                                <li class="pricing__item article__item">
+                                    One year of Mac app updates
+                                </li>
+                                <li class="pricing__item article__item">
+                                    One year of saving to Cloud
+                                </li>
+                                <li class="pricing__item article__item">
+                                    A personal Cloud workspace
+                                </li>
+                                <li class="pricing__item article__item">
+                                    All tools, just for you
+                                </li>
+                            </ul>
+                            <button class="button light center" type="button">
+                                Join
+                            </button>
+                        </article>
+                        <article class="pricing__card-price light">
+                            <h4 class="pricing__body-title title__mega">
+                                <sup>$</sup>299<sub>per mo<span>nth</span></sub>
+                            </h4>
+                            <p class="pricing__description">
+                                A pay-once license, just for you
+                            </p>
+                            <ul class="pricing__list article__list">
+                                <li class="pricing__item article__item">
+                                    The Mac app — yours to keep
+                                </li>
+                                <li class="pricing__item article__item">
+                                    Beautiful White_level
+                                </li>
+                                <li class="pricing__item article__item">
+                                    One year of saving to Cloud
+                                </li>
+                            </ul>
+                            <button class="button black center" type="button">
+                                Join
+                            </button>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section class="faqs section">
+                <div class="faqs__inner section__inner container">
+                    <div class="faqs__body section__body">
+                        <h2 class="faqs__category category">FAQS</h2>
+                        <articles class="faqs__article">
+                            <h3 class="faqs__title title__big">
+                                Common Questions.
+                            </h3>
+                            <p class="faqs__description description">
+                                The online form also provides links to a set of
+                                frequently asked questions, other information
+                                materials related to the financial disclosure
+                                programme.
+                            </p>
+                            <ul class="faqs__list">
+                                <li class="faqs__item">
+                                    <h4>
+                                        <button
+                                            type="button"
+                                            class="faqs__accordion active"
+                                        >
+                                            How much does a Teams subscription
+                                            cost?
+                                        </button>
+                                    </h4>
+                                    <p
+                                        class="faqs__panel active faqs__description description"
+                                    >
+                                        The online form also provides links to a
+                                        set of frequently asked questions, other
+                                        information materials related to the
+                                        financial disclosure programme.
+                                    </p>
+                                </li>
+                                <li class="faqs__item">
+                                    <h4>
+                                        <button
+                                            type="button"
+                                            class="faqs__accordion"
+                                        >
+                                            Do I still need to purchase licenses
+                                            for the Mac app?
+                                        </button>
+                                    </h4>
+                                    <p
+                                        class="faqs__panel faqs__description description"
+                                    >
+                                        The online form also provides links to a
+                                        set of frequently asked questions, other
+                                        information materials related to the
+                                        financial disclosure programme.
+                                    </p>
+                                </li>
+                                <li class="faqs__item">
+                                    <h4>
+                                        <button
+                                            type="button"
+                                            class="faqs__accordion"
+                                        >
+                                            What are the differences between
+                                            Contributors and Viewers?
+                                        </button>
+                                    </h4>
+                                    <p
+                                        class="faqs__panel faqs__description description"
+                                    >
+                                        The online form also provides links to a
+                                        set of frequently asked questions, other
+                                        information materials related to the
+                                        financial disclosure programme.
+                                    </p>
+                                </li>
+                                <li class="faqs__item">
+                                    <h4>
+                                        <button
+                                            type="button"
+                                            class="faqs__accordion"
+                                        >
+                                            How long does the free Teams
+                                            subscription trial last?
+                                        </button>
+                                    </h4>
+                                    <p
+                                        class="faqs__panel faqs__description description"
+                                    >
+                                        The online form also provides links to a
+                                        set of frequently asked questions, other
+                                        information materials related to the
+                                        financial disclosure programme.
+                                    </p>
+                                </li>
+                                <li class="faqs__item">
+                                    <h4>
+                                        <button
+                                            type="button"
+                                            class="faqs__accordion"
+                                        >
+                                            Will program for Teams replace
+                                            volume licensing?
+                                        </button>
+                                    </h4>
+                                    <p
+                                        class="faqs__panel faqs__description description"
+                                    >
+                                        The online form also provides links to a
+                                        set of frequently asked questions, other
+                                        information materials related to the
+                                        financial disclosure programme.
+                                    </p>
+                                </li>
+                            </ul>
+                        </articles>
+                    </div>
+                    <div class="image__wrapper right">
+                        <img
+                            src="./images/pictures/5.png"
+                            alt=""
+                            class="faqs__image"
+                            width="586"
+                            height="604"
                         />
                     </div>
                 </div>
